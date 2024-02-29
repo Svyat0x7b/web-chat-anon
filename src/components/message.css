@@ -1,0 +1,22 @@
+.message {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.message-photo {
+    border-radius: 50%;
+    padding: 15px;
+    background: #000;
+    color: #fff;
+}
+.message-content {
+    background: #fff;
+    border-radius: 15px;
+    border-top-left-radius: none;
+    padding: 5px 25px;
+}
+.content-details {
+    display: flex;
+    justify-content: space-between;
+}
