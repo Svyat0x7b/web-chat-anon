@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for the realtime anon chat",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webchat",
+    "websocket",
+    "socketio"
+  ],
+  "author": "Svyat0x7b",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.0",
+    "ws": "^8.16.0"
+  }
+}
