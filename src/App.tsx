@@ -6,11 +6,11 @@ function App() {
     return (
         <>
             <header className="header">
+                <h1>AnonGram</h1>
                 <div className="logo">
                     <img src={reactLogo} alt="logo" />
                 </div>
-                <h1>AnonGram</h1>
-                <div>TG: @tailer3301</div>
+                <div>TG: @Svyat3301</div>
             </header>
             <main className="content">
                 <ChatRoom />
