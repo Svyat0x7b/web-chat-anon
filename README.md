@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# 🍕Anongram
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a client of a anon web chat service. There are several functionalities, like joining to the chat, entered your name and sending message.
 
-Currently, two official plugins are available:
+## Preview :trollface:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Anongram Preview](https://github.com/Svyat0x7b/web-chat-anon/blob/client/chat-ui.png)
 
-## Expanding the ESLint configuration
+## ⚜️Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Frontend:
 
-- Configure the top-level `parserOptions` property like this:
+-   ReactJS
+-   TypeScript
+-   Websocket
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Backend:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+-   NodeJS
+-   Express.js
+-   Websocket(ws)
+
+## To install the project dependecies, download the files and execute: ✔️
+
+`npm install`
+
+## To run the project execute: ✔️
+
+### React App
+
+`npm run dev`
+
+### Express App
+
+`npm start`
+
+## What about backend? 🔸
+
+As a backend I`ve used Express App with library 'ws' which implemented the main functionality of the app.
