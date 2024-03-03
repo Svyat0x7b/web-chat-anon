@@ -1,4 +1,4 @@
-# 🍕Anongram
+# 🕶️Anongram
 
 This project is a client of a anon web chat service. There are several functionalities, like joining to the chat, entered your name and sending message.
 
